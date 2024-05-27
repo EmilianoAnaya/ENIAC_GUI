@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Exit_Screen</class>
+ <widget class="QWidget" name="Exit_Screen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>438</width>
+    <height>219</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>438</width>
+    <height>219</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(102, 148, 255, 255), stop:0.360465 rgba(89, 136, 255, 255), stop:0.677778 rgba(70, 165, 255, 255), stop:0.994987 rgba(42, 180, 255, 255), stop:1 rgba(7, 0, 92, 255));
+}
+
+QLabel{
+	background-color:transparent;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Verdana;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignBottom">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Muchas Gracias por haber Participado!</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Esperamos verte pronto!!!</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
